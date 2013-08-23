@@ -1,0 +1,5 @@
+default:
+- .:
+  - '{branch: $BRANCH == "$CREATOR/master", priority: 1, version: $TAG==STABLE}
+
+    '
